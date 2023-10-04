@@ -1,0 +1,15 @@
+{
+  "sourceRoot": "apps/ios-embed-sdk/VatomWallet",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build-destinations": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "xcodebuild -showdestinations -scheme VatomWallet",
+        "cwd": "./apps/ios-embed-sdk/VatomWallet",
+        "parallel": false
+      }
+    }
+  }
+}
